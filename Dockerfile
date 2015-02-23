@@ -14,5 +14,5 @@ RUN mkdir /app && mkdir /app/data && cd /app && git clone https://github.com/nav
 RUN cd /app/bitcoin && ./autogen.sh && ./configure && make
 ADD bitcoin.conf /app/example/
 
-CMD /app/bitcoin/src/bitcoind -datadir=/app/data -testnet -conf=/app/conf/bitcoin.conf
+CMD /app/bitcoin/src/bitcoind -datadir=/app/data -conf=/app/conf/bitcoin.conf
 
