@@ -1,5 +1,7 @@
 # bitcoind-src-docker
 
+_**experiment, i don't know what i'm doing with this yet**_
+
 A test container that builds and runds bitcond from my fork of bitcoin
 
 1. You should create a conf dir and make a bitcoin.conf file.  Then mount that conf dir at `/app/conf`
