@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/bitcoind-src-docker](https://git.navicore.tech/navicore/bitcoind-src-docker).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 # bitcoind-src-docker
 
 _**experiment, i don't know what i'm doing with this yet**_
